@@ -30,6 +30,6 @@ namespace TestProject1
             double act = Class1.GetAreaT(_side1,_side2, _side3);
             Assert.Equal(res, act);
         }
-        //Hello world!
+        //Hello
     }
 }
