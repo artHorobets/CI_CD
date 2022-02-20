@@ -5,7 +5,7 @@ namespace TestProject1
     public class UnitTest1
     {
         [Theory]
-        [InlineData(5, 5, 2, 4.898979485566356)]
+        [InlineData(5, 5.999, 2, 4.6848682080182265)]
         [InlineData(1, 1, 1, 0.4330127018922193)]
         [InlineData(1, 2, 1, 0)]
         [InlineData(3, 3, 4, 4.47213595499958)]
@@ -30,6 +30,6 @@ namespace TestProject1
             double act = Class1.GetAreaT(_side1,_side2, _side3);
             Assert.Equal(res, act);
         }
-
+        //Hello world!
     }
 }
